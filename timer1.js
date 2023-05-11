@@ -1,7 +1,7 @@
 // slice off the node thingy to get command line arguments
 let args = process.argv.slice(2);
 
-// for each argument do this
+// for each command line argument (number given) do this
 args.forEach(arg => {
   // convert to number
   let time = Number(arg);
